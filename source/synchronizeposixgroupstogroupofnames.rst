@@ -75,7 +75,7 @@ We define here a source service that will read POSIX groups, and a destination s
             <string>member</string>
             <string>objectClass</string>
         </fetchedAttributes>
-        <getAllFilter><![CDATA[(objectClass=groupeOfNames)]]></getAllFilter>
+        <getAllFilter><![CDATA[(objectClass=groupOfNames)]]></getAllFilter>
         <getOneFilter><![CDATA[(&(objectClass=groupOfNames)(cn={cn}))]]></getOneFilter>
     </ldapDestinationService>
 
